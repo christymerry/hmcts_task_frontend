@@ -21,7 +21,7 @@ function TaskDetails() {
     },[id]);
 
     const fetchData = () => {
-        axios.get(`http://localhost:3000/api/tasks/${id}`)
+        axiosInstance.get(`/${id}`)
         .then(res => setTask(res.data[0]))
         .catch(err => console.error(err));
     }

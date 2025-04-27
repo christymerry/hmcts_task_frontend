@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Tag } from "antd";
-import axios from 'axios'
 import dayjs from "dayjs";
+import axiosInstance from "../../axios";
+import axios from "axios";
 
 const useHomeScreen = ()=>{
 
@@ -21,7 +22,7 @@ const useHomeScreen = ()=>{
 
 
     const fetchData = () => {
-      axios.get('http://localhost:3000/api/tasks')
+      axiosInstance.get('/')
         .then(res => setDataSource(res.data))
         .catch(err => console.error(err))
     }
