@@ -1,12 +1,36 @@
-# React + Vite
+# hmcts_task_frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is a web application for a simple task tracking system using React JS, Ant Design, and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Requirements
 
-## Expanding the ESLint configuration
+1. **Clone & Run Backend service from `https://github.com/christymerry/hmcts_task_backend`**
+2. **Node.JS**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setting Up & Running Project
+
+Follow the steps below to set up the project:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/christymerry/hmcts_task_frontend
+    ```
+
+2. Install dependencies
+   ```bash
+   npm install
+   ```
+
+3. Update API Base URL (If required). Go to `src/axios.js` and update BASE URL if your backend service is running on a different port.
+4. Run the application using `npm run dev`
+
+## Screenshots
+![image](https://github.com/user-attachments/assets/c4132070-ce28-46da-99f4-391ea07ee336)
+![image](https://github.com/user-attachments/assets/7dcb9cfe-c25c-45b9-8c09-189d679f1a73)
+![image](https://github.com/user-attachments/assets/7aa165bc-5b47-48c0-a5fe-a953e32da860)
+![image](https://github.com/user-attachments/assets/9215a42c-362e-4393-a3dc-a814c678d2e9)
+
+
+
